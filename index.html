@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SteadyClick - Earn Money Online</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>SteadyClick</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Earnings</a></li>
+                <li><a href="#">Orders</a></li>
+                <li><a href="#">Apps</a></li>
+                <li><a href="#">Digital Marketing</a></li>
+            </ul>
+        </nav>
+        <div class="header-icons">
+            <div class="icon-container help-icon">
+                <i class="fas fa-question-circle"></i>
+                <div class="tooltip">Help</div>
+            </div>
+            <div class="icon-container notification-icon">
+                <i class="fas fa-bell"></i>
+                <span class="badge">3</span>
+                <div class="tooltip">Notifications</div>
+                <div class="notification-dropdown">
+                    <div class="notification-item unread">
+                        <i class="fas fa-check-circle"></i>
+                        <div class="notification-content">
+                            <p>You have received a new income</p>
+                            <span>1 hour ago</span>
+                        </div>
+                    </div>
+                    <div class="notification-item">
+                        <i class="fas fa-user-plus"></i>
+                        <div class="notification-content">
+                            <p>Your order #12345 has been completed</p>
+                            <span>3 hours ago</span>
+                        </div>
+                    </div>
+                    <div class="notification-item unread">
+                        <i class="fas fa-dollar-sign"></i>
+                        <div class="notification-content">
+                            <p>Your withdrawal request has been approved</p>
+                            <span>1 day ago</span>
+                        </div>
+                    </div>
+                    <a href="#" class="view-all">View All Notifications</a>
+                </div>
+            </div>
+            <div class="icon-container message-icon">
+                <i class="fas fa-comment"></i>
+                <span class="badge">5</span>
+                <div class="tooltip">Messages</div>
+            </div>
+            <div class="icon-container public-chat-icon">
+                <i class="fas fa-comments"></i>
+                <div class="tooltip">Public Chat</div>
+            </div>
+            <div class="user-profile">
+                <img src="https://api.dicebear.com/6.x/avataaars/svg?seed=Felix" alt="User Profile">
+                <span>$24.50</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Dashboard Section -->
+        <section class="dashboard">
+            <div class="stats-container">
+                <div class="stat-card">
+                    <i class="fas fa-tasks"></i>
+                    <div class="stat-info">
+                        <h3>Available Tasks</h3>
+                        <p>245</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-dollar-sign"></i>
+                    <div class="stat-info">
+                        <h3>Total Earnings</h3>
+                        <p>$124.50</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-clock"></i>
+                    <div class="stat-info">
+                        <h3>Pending</h3>
+                        <p>$14.75</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-check-circle"></i>
+                    <div class="stat-info">
+                        <h3>Completed Tasks</h3>
+                        <p>187</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Available Orders Section -->
+        <section class="available-orders">
+            <div class="section-header">
+                <h2>Available Orders</h2>
+                <button class="create-order-btn"><i class="fas fa-plus"></i> Create Order</button>
+            </div>
+            
+            <div class="order-filter">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Subscribe</button>
+                <button class="filter-btn">Like</button>
+                <button class="filter-btn">Watch</button>
+                <button class="filter-btn">Apps</button>
+            </div>
+            
+            <div class="orders-container">
+                <!-- Order Card 1 -->
+                <div class="order-card">
+                    <div class="order-type youtube">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="order-details">
+                        <h3>YouTube Subscribe</h3>
+                        <p>Subscribe to our channel and receive $0.02 per subscription</p>
+                        <div class="order-meta">
+                            <span><i class="fas fa-users"></i> 78/100 completed</span>
+                            <span><i class="fas fa-dollar-sign"></i> $0.02 per task</span>
+                        </div>
+                    </div>
+                    <button class="start-task-btn">Start Task</button>
+                </div>
+                
+                <!-- Order Card 2 -->
+                <div class="order-card">
+                    <div class="order-type facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <div class="order-details">
+                        <h3>Facebook Page Like</h3>
+                        <p>Like our Facebook page and receive $0.02 per like</p>
+                        <div class="order-meta">
+                            <span><i class="fas fa-users"></i> 45/100 completed</span>
+                            <span><i class="fas fa-dollar-sign"></i> $0.02 per task</span>
+                        </div>
+                    </div>
+                    <button class="start-task-btn">Start Task</button>
+                </div>
+                
+                <!-- Order Card 3 -->
+                <div class="order-card">
+                    <div class="order-type video">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <div class="order-details">
+                        <h3>Watch Video</h3>
+                        <p>Watch this video for at least 3 minutes and earn $0.15</p>
+                        <div class="order-meta">
+                            <span><i class="fas fa-users"></i> 23/100 completed</span>
+                            <span><i class="fas fa-dollar-sign"></i> $0.15 per task</span>
+                        </div>
+                    </div>
+                    <button class="start-task-btn">Start Task</button>
+                </div>
+                
+                <!-- Order Card 4 -->
+                <div class="order-card">
+                    <div class="order-type app">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="order-details">
+                        <h3>Install App</h3>
+                        <p>Install this app, use it for 2 minutes, and earn $0.05</p>
+                        <div class="order-meta">
+                            <span><i class="fas fa-users"></i> 12/50 completed</span>
+                            <span><i class="fas fa-dollar-sign"></i> $0.05 per task</span>
+                        </div>
+                    </div>
+                    <button class="start-task-btn">Start Task</button>
+                </div>
+            </div>
+            
+            <button class="load-more-btn">Load More</button>
+        </section>
+        
+        <!-- How It Works Section -->
+        <section class="how-it-works">
+            <h2>How SteadyClick Works</h2>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <h3>Sign Up</h3>
+                    <p>Create your account and complete your profile to start earning</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Complete Tasks</h3>
+                    <p>Find available tasks and complete them to earn money</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Submit Proof</h3>
+                    <p>Submit proof of task completion for verification</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <h3>Get Paid</h3>
+                    <p>Once approved, money is added to your account</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <h2>What Our Users Say</h2>
+            <div class="testimonial-container">
+                <div class="testimonial">
+                    <div class="testimonial-header">
+                        <img src="https://api.dicebear.com/6.x/avataaars/svg?seed=John" alt="User Avatar">
+                        <div>
+                            <h3>John Smith</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"SteadyClick has been an amazing platform for me to earn extra income. The tasks are simple and payments are always on time."</p>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-header">
+                        <img src="https://api.dicebear.com/6.x/avataaars/svg?seed=Sarah" alt="User Avatar">
+                        <div>
+                            <h3>Sarah Johnson</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"I've been using SteadyClick for 3 months now, and I've already earned over $200. It's a legitimate way to make money online!"</p>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-header">
+                        <img src="https://api.dicebear.com/6.x/avataaars/svg?seed=Michael" alt="User Avatar">
+                        <div>
+                            <h3>Michael Wong</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"The customer support is excellent, and the platform is very user-friendly. I highly recommend SteadyClick to anyone looking to earn money online."</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>SteadyClick</h3>
+                <p>Explore the world, one adventure at a time.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">How It Works</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Complaint Box</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Payment Methods</h3>
+                <div class="payment-methods">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PayPal.svg/124px-PayPal.svg.png" alt="PayPal">
+                    <img src="https://cdn.worldvectorlogo.com/logos/payoneer.svg" alt="Payoneer">
+                    <img src="https://seeklogo.com/images/W/wise-formerly-transferwise-logo-D5182007F9-seeklogo.com.png" alt="Wise">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1200px-Bitcoin.svg.png" alt="Bitcoin">
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 SteadyClick. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Popup/Modal for Task Start -->
+    <div class="modal" id="taskModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Complete YouTube Subscribe Task</h2>
+            <div class="task-instructions">
+                <h3>Instructions:</h3>
+                <ol>
+                    <li>Click the link below to open the YouTube channel</li>
+                    <li>Subscribe to the channel</li>
+                    <li>Return to this page and submit proof</li>
+                </ol>
+                <a href="#" class="task-link" target="_blank">Open YouTube Channel</a>
+            </div>
+            <div class="proof-submission">
+                <h3>Submit Proof:</h3>
+                <p>Please provide the Gmail account you used to subscribe:</p>
+                <input type="text" placeholder="example@gmail.com">
+                <div class="upload-section">
+                    <p>Or upload a screenshot of your subscription:</p>
+                    <button class="upload-btn"><i class="fas fa-upload"></i> Upload Screenshot</button>
+                </div>
+                <button class="submit-proof-btn">Submit Proof</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
